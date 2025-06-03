@@ -1,20 +1,24 @@
-# 🏢 Stocktaking Inc.
+<h1 align="left" id="stocktaking-inc">🏢 Stocktaking Inc.</h1>
 
 **Stocktaking Inc.** — это платформа для автоматизации складского учёта, управления поставками и инвентаризации, ориентированная на малый и средний бизнес. Мы создаём удобные, масштабируемые решения с открытым исходным кодом на базе современных веб-технологий и микросервисной архитектуры.
 
 ---
 
-## 📂 Наши репозитории
+<h2 align="left" id="stocktaking-reps">📝 Наши репозитории</h2>
 
-| Название | Назначение |
+| Репозиторий | Описание |
 |---------|------------|
-| [`stocktaking`](https://github.com/stocktaking-inc/stocktaking) | Веб-приложение для инвентаризации |
-| [`supplier-service`](https://github.com/stocktaking-inc/supplier-service) | Сервис управления поставщиками |
-| [`auth-backend`](https://github.com/stocktaking-inc/auth-backend) | Аутентификация и управление пользователями |
-| [`db`](https://github.com/stocktaking-inc/db) | Миграции и схема БД |
-| [`core-service`](https://github.com/stocktaking-inc/core-service) | Общая бизнес-логика |
-| [`core-front`](https://github.com/stocktaking-inc/core-front) | Общие UI-компоненты и логика |
-| [`error-pages`](https://github.com/stocktaking-inc/error-pages) | Кастомные страницы ошибок |
+| [1. `core-front`](https://github.com/stocktaking-inc/core-front) | Основное web-приложение |
+| [2. `auth-frontend`](https://github.com/stocktaking-inc/auth-frontend) | Фронтенд с авторизацией регистрацией |
+| [3. `core-service`](https://github.com/stocktaking-inc/core-service) | Основной микросервис |
+| [4. `supplier-service`](https://github.com/stocktaking-inc/supplier-service) | Микросервис управления поставщиками |
+| [5. `db`](https://github.com/stocktaking-inc/db) | PostgreSQL БД |
+| [6. `gateway`](https://github.com/stocktaking-inc/gateway) | Гейтвей |
+| [7. `stocktaking`](https://github.com/stocktaking-inc/stocktaking) | Reverse proxy сервер |
+| [8. `auth-backend`](https://github.com/stocktaking-inc/auth-backend) | Микросервис с авторизацией |
+| [9. `error-pages`](https://github.com/stocktaking-inc/error-pages) |  Страницы ошибок |
+| [10. `site-policies`](https://github.com/stocktaking-inc/site-policies) | Юридические страницы |
+| [11. `docs`](https://github.com/stocktaking-inc/docs) | Полная документация проекта |
 
 ---
 
@@ -56,17 +60,6 @@
         />
       </a>
       <br>Astro
-    </td>
-    <td align="center" width="110" height="90">
-      <a href="#stocktaking-stack">
-        <img
-          src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg"
-          width="36"
-          height="36"
-          alt="Zustand"
-        />
-      </a>
-      <br>Zustand
     </td>
     <td align="center" width="110" height="90">
       <a href="#stocktaking-stack">
@@ -163,12 +156,6 @@
     </td>
     <td align="center" width="110" height="90">
       <a href="#stocktaking-stack">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Clickhouse.png" width="36" height="36" alt="ClickHouse" />
-      </a>
-      <br>ClickHouse
-    </td>
-    <td align="center" width="110" height="90">
-      <a href="#stocktaking-stack">
         <img src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original.svg" width="36" height="36" alt="Redis" />
       </a>
       <br>Redis
@@ -230,11 +217,12 @@
       </a>
       <br>Docker
     </td>
-    <td align="center" width="110" height="90">
-      <a href="#stocktaking-stack">
-        <img src="https://github.com/devicons/devicon/blob/master/icons/k3s/k3s-original.svg" width="36" height="36" alt="k3s" />
+    <td align='center' width='110' height='90'>
+      <a href='#stocktaking-stack'>
+        <img src='https://github.com/devicons/devicon/blob/master/icons/nginx/nginx-original.svg' 
+        width='36' height='36' alt='NGINX'>
       </a>
-      <br>k3s
+      <br>NGINX
     </td>
     <td align="center" width="110" height="90">
       <a href="#stocktaking-stack">
@@ -254,24 +242,6 @@
         <img src="https://github.com/devicons/devicon/blob/master/icons/k6/k6-original.svg" width="36" height="36" alt="k6" />
       </a>
       <br>k6
-    </td>
-    <td align="center" width="110" height="90">
-      <a href="#stocktaking-stack" >
-        <img src="https://brandeps.com/icon-download/J/Jest-icon-vector-02.svg" width="36" height="36" alt="Jest" />
-      </a>
-      <br>Jest
-    </td>
-    <td align="center" width="110" height="90">
-      <a href="#stocktaking-stack">
-        <img src="https://avatars.githubusercontent.com/u/2092016?s=280&v=4" width="36" height="36" alt="xUnit" />
-      </a>
-      <br>xUnit
-    </td>
-    <td align="center" width="110" height="90">
-      <a href="#stocktaking-stack">
-        <img src="https://playwright.dev/img/playwright-logo.svg" width="36" height="36" alt="playwright" />
-      </a>
-      <br>Playwright
     </td>
     <td align="center" width="110" height="90">
       <a href="#stocktaking-stack">
@@ -306,17 +276,8 @@
   </tr>
 </table>
 
-
----
-
-## 🤝 Как внести вклад
-
-- [Сообщить об ошибке](https://github.com/stocktaking-inc/.github/issues/new?template=bug_report.md)
-- [Предложить идею или улучшение](https://github.com/stocktaking-inc/.github/issues/new?template=feature_request.md)
-- [Задать вопрос](https://github.com/stocktaking-inc/.github/issues/new?template=question.md)
-
 ---
 
 ## 📜 Лицензия
 
-Все материалы распространяются под лицензией [MIT](LICENSE).
+Все материалы распространяются под лицензией [MIT](https://github.com/stocktaking-inc/docs/blob/main/LICENSE).
